@@ -1,0 +1,78 @@
+c:\users\trong hieu\documents\visual studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\AUI_Test.exe.config
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\AUI_Test.exe
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\AUI_Test.pdb
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.csprojResolveAssemblyReference.cache
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Main.resources
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Properties.Resources.resources
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.csproj.GenerateResource.Cache
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.exe
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.pdb
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.MainForm.resources
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.RadRibbonForm1.resources
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.NewProject.resources
+C:\Users\Trong Hieu\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test._ReadFile.resources
+E:\AUI_Test\AUI_Test\bin\Debug\AUI_Test.exe.config
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.exe
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.pdb
+E:\AUI_Test\AUI_Test\bin\Debug\AUI_Test.exe
+E:\AUI_Test\AUI_Test\bin\Debug\AUI_Test.pdb
+E:\AUI_Test\AUI_Test\bin\Debug\Bricks.dll
+E:\AUI_Test\AUI_Test\bin\Debug\Bricks.RuntimeFramework.dll
+E:\AUI_Test\AUI_Test\bin\Debug\Castle.Core.dll
+E:\AUI_Test\AUI_Test\bin\Debug\Castle.DynamicProxy2.dll
+E:\AUI_Test\AUI_Test\bin\Debug\ExcelLibrary.dll
+E:\AUI_Test\AUI_Test\bin\Debug\jSkin.dll
+E:\AUI_Test\AUI_Test\bin\Debug\log4net.dll
+E:\AUI_Test\AUI_Test\bin\Debug\ManagedSpyLib.dll
+E:\AUI_Test\AUI_Test\bin\Debug\TestStack.White.dll
+E:\AUI_Test\AUI_Test\bin\Debug\White.Core.dll
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Main.resources
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.MainForm.resources
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.NewProject.resources
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Properties.Resources.resources
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test._ReadFile.resources
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.csproj.GenerateResource.Cache
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.csprojResolveAssemblyReference.cache
+E:\AUI_Test\AUI_Test\obj\Debug\AUI_Test.RunScript.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.exe
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Main.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.MainForm.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.NewProject.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Open_Project.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.PropertiesViewer.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Properties.Resources.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Status.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.RunScript.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.NewFile.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Spy.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.WindowsViewer.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Status.cy-GB.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Status.en.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Status.nqo-GN.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Spy.cs.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.Status.vi.resources
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.csproj.GenerateResource.Cache
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\AUI_Test.pdb
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\AUI_Test.exe
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\AUI_Test.pdb
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\cy-GB\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\en\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\nqo-GN\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\cs\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\vi\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\Bricks.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\Bricks.RuntimeFramework.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\Castle.Core.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\ExcelLibrary.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\HotkeyLib.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\jSkin.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\log4net.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\ManagedSpyLib.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\TestStack.White.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\bin\Debug\White.Core.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\cy-GB\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\en\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\nqo-GN\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\cs\AUI_Test.resources.dll
+C:\Users\10110_000\Documents\Visual Studio 2012\Projects\AUI_Test\AUI_Test\obj\Debug\vi\AUI_Test.resources.dll

@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFC3194D-8610-4774-A316-120DD0C87947}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AUI_Test</RootNamespace>
+    <AssemblyName>AUI_Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bricks">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\Bricks.dll</HintPath>
+    </Reference>
+    <Reference Include="Bricks.RuntimeFramework">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\Bricks.RuntimeFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy2">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\Castle.DynamicProxy2.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelLibrary">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="HotkeyLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\Hotkeys\HotkeyLib\bin\Debug\HotkeyLib.dll</HintPath>
+    </Reference>
+    <Reference Include="jSkin">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\jSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedSpyLib">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\ManagedSpyLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.HighContrastBlack, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Black, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Blue, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="TestStack.White, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2672efbf3e161801, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\TestStack.White.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationClientsideProviders" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="White.Core">
+      <HintPath>..\..\..\..\AUI_Test\AUI_Test\bin\Debug\Lib\White.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABT.Auto\Action.cs" />
+    <Compile Include="ABT.Auto\ActionManager.cs" />
+    <Compile Include="ABT.Auto\Automation.cs" />
+    <Compile Include="ABT.Auto\Constants.cs" />
+    <Compile Include="ABT.Auto\Data.cs" />
+    <Compile Include="ABT.Auto\ExcelFileParser.cs" />
+    <Compile Include="ABT.Auto\ExcelReporter.cs" />
+    <Compile Include="ABT.Auto\Interface.cs" />
+    <Compile Include="ABT.Auto\Script.cs" />
+    <Compile Include="ABT.Auto\SourceFile.cs" />
+    <Compile Include="ABT.Model\ActionLine.cs" />
+    <Compile Include="ABT.Model\IAction.cs" />
+    <Compile Include="ABT.Model\IActionManager.cs" />
+    <Compile Include="ABT.Model\IAutomation.cs" />
+    <Compile Include="ABT.Model\IData.cs" />
+    <Compile Include="ABT.Model\IFileParser.cs" />
+    <Compile Include="ABT.Model\IInterface.cs" />
+    <Compile Include="ABT.Model\IReporter.cs" />
+    <Compile Include="ABT.Model\IScript.cs" />
+    <Compile Include="ABT.Model\ISourceFile.cs" />
+    <Compile Include="ABT.Model\SourceLine.cs" />
+    <Compile Include="ABT.Model\UIAActionManager.cs" />
+    <Compile Include="actions\ActionCheckControlExist.cs" />
+    <Compile Include="actions\ActionCheckControlProperty.cs" />
+    <Compile Include="actions\ActionCheckWindowExist.cs" />
+    <Compile Include="actions\ActionCheckWindowProperty.cs" />
+    <Compile Include="actions\ActionClick.cs" />
+    <Compile Include="actions\ActionCloseWindow.cs" />
+    <Compile Include="actions\ActionEnter.cs" />
+    <Compile Include="actions\ActionSelectMenuItem.cs" />
+    <Compile Include="actions\ActionSet.cs" />
+    <Compile Include="actions\ActionStartProgram.cs" />
+    <Compile Include="actions\UIAAction.cs" />
+    <Compile Include="DirectoryNew.cs" />
+    <Compile Include="DirectoryTabcontrol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DirectoryTreeview.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatchesViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MatchesViewer.Designer.cs">
+      <DependentUpon>MatchesViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewProject.Designer.cs">
+      <DependentUpon>NewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Open_Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Open_Project.Designer.cs">
+      <DependentUpon>Open_Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="PropertiesViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PropertiesViewer.Designer.cs">
+      <DependentUpon>PropertiesViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Status.Designer.cs">
+      <DependentUpon>Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunScript.Designer.cs">
+      <DependentUpon>RunScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFile.Designer.cs">
+      <DependentUpon>NewFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Spy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spy.cs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Spy.cs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Spy.Designer.cs">
+      <DependentUpon>Spy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WindowsViewer.Designer.cs">
+      <DependentUpon>WindowsViewer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewProject.resx">
+      <DependentUpon>NewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Open_Project.resx">
+      <DependentUpon>Open_Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertiesViewer.resx">
+      <DependentUpon>PropertiesViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status.cy-GB.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status.en.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status.nqo-GN.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunScript.resx">
+      <DependentUpon>RunScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFile.resx">
+      <DependentUpon>NewFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spy.cs.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Spy.cs.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spy.resx">
+      <DependentUpon>Spy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status.vi.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsViewer.resx">
+      <DependentUpon>WindowsViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontree.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconsubtree.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\introduction.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\introduce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openfile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lib\Bricks.dll" />
+    <Content Include="Lib\Bricks.RuntimeFramework.dll" />
+    <Content Include="Lib\Castle.Core.dll" />
+    <Content Include="Lib\Castle.DynamicProxy2.dll" />
+    <Content Include="Lib\ExcelLibrary.dll" />
+    <Content Include="Lib\HotkeyLib.dll" />
+    <Content Include="Lib\jSkin.dll" />
+    <Content Include="Lib\log4net.dll" />
+    <Content Include="Lib\ManagedSpyLib.dll" />
+    <Content Include="Lib\TestStack.White.dll" />
+    <Content Include="Lib\White.Core.dll" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\folder1.png" />
+    <None Include="Resources\null %282%29.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\full_page1.png" />
+    <None Include="Resources\full_page.png" />
+    <None Include="Resources\nenopen.png" />
+    <None Include="Resources\form-final.png" />
+    <None Include="Resources\chinaz16.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
